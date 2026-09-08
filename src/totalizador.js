@@ -1,4 +1,7 @@
 export function calcularPrecioNeto(cantidad, precio) {
+ if (cantidad <= 0) {
+    throw new Error("La cantidad debe ser un número positivo mayor a cero");
+  }
   return cantidad * precio;
 }
 

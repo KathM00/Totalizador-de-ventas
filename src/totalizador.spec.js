@@ -53,4 +53,12 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularTotal(20,3,"TX")).toEqual(63.75);
   });
 
+  it('debería lanzar un error si la cantidad de items es menor o igual a 0', () => {
+    expect(() => calcularPrecioNeto(0, 3)).toThrow("La cantidad debe ser un número positivo mayor a cero");
+  });
+
+  it('debería lanzar un error si la cantidad de items es menor o igual a 0', () => {
+   expect(() => calcularPrecioNeto(-5, 3)).toThrow("La cantidad debe ser un número positivo mayor a cero");
+  });
+
 });

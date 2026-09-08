@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8a579bc3ea7328f3979885c349f3db90cd6fd43b",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T03:33:24.000Z",
       "message": "feat: implementar el calculo total con descuento e impuesto incluidos",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/8a579bc3ea7328f3979885c349f3db90cd6fd43b"
     },
     "stats": {
       "total": 13,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T03:44:33.000Z",
+      "message": "feat: verificar que la cantidad ingresada sea un numero positivo",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
