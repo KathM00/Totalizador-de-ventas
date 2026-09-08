@@ -61,4 +61,8 @@ describe('Calculadora de Totalizador', () => {
    expect(() => calcularPrecioNeto(-5, 3)).toThrow("La cantidad debe ser un número positivo mayor a cero");
   });
 
+  it('debería lanzar un error si el precio es negativo', () => {
+    expect(() => calcularPrecioNeto(20, -5)).toThrow("El precio no puede ser negativo");
+  });
+
 });
