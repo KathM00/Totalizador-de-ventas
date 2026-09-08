@@ -9,4 +9,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularImpuesto(60, 'TX')).toEqual(3.75);
   });
 
+  it('debería calcular el impuesto del 6.65% para el estado UT', () => {
+    expect(calcularImpuesto(60, 'UT')).toEqual(3.99);
+  });
+
 });

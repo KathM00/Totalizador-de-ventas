@@ -46,9 +46,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "109032e803da2e781daad5da384b7a37e37f32b9",
     "commitName": "feat: implementar calculo de impuesto especifico para estado TX",
     "commitTimestamp": 1788835609679,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788835842151,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788835882964,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de impuesto especifico para estado UT",
+    "commitTimestamp": 1788835900415,
+    "testId": 2
   }
 ]
