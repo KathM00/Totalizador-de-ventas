@@ -650,9 +650,31 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "41f8ec1fc317471b11cfa19142994442236179ff",
     "commitName": "feat: implementar calculo impuesto para categoria Alimentos",
     "commitTimestamp": 1788893000638,
     "testId": 27
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1788893302434,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1788893316733,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Bebidas Alcoholicas",
+    "commitTimestamp": 1788893334670,
+    "testId": 28
   }
 ]

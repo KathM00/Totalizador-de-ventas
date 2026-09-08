@@ -108,5 +108,9 @@ describe('Calculadora de Totalizador', () => {
   it('debería calcular 0 de impuesto adicional si la categoría es Alimentos', () => {
     expect(calcularImpuestoCategoria(1000, 'Alimentos')).toEqual(0);
   });
+
+  it('debería calcular 7% de impuesto adicional si la categoría es Bebidas Alcohólicas', () => {
+    expect(calcularImpuestoCategoria(1000, 'Bebidas Alcohólicas')).toEqual(70);
+  });
   
 });

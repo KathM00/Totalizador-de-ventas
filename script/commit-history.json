@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "41f8ec1fc317471b11cfa19142994442236179ff",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T18:43:18.000Z",
       "message": "feat: implementar calculo impuesto para categoria Alimentos",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/41f8ec1fc317471b11cfa19142994442236179ff"
     },
     "stats": {
       "total": 7,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T18:48:52.000Z",
+      "message": "feat: implementar calculo impuesto para categoria Bebidas Alcoholicas",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -93,4 +93,7 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
   if (categoria === 'Alimentos') {
     return 0;
   }
+  if (categoria === 'Bebidas Alcohólicas') {
+    return precioNeto * 0.07;
+  }
 }
