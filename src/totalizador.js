@@ -78,5 +78,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Muebles') {
     return 0;
   }
+  if (categoria === 'Electrónicos') {
+    return precioNeto * 0.01;
+  }
 
 }

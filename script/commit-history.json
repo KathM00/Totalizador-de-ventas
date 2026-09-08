@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e541e7e12fc903e28a39a3c826eafa3b04d33b1c",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T14:22:48.000Z",
       "message": "feat: implementar calculo descuento para categoria Muebles",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/e541e7e12fc903e28a39a3c826eafa3b04d33b1c"
     },
     "stats": {
       "total": 8,
@@ -452,6 +452,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T14:27:20.000Z",
+      "message": "feat: implementar calculo descuento para categoria Electronicos",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

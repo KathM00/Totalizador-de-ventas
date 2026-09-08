@@ -92,5 +92,9 @@ describe('Calculadora de Totalizador', () => {
   it('debería calcular 0 de descuento adicional si la categoría es Muebles', () => {
     expect(calcularDescuentoCategoria(1000, 'Muebles')).toEqual(0);
   });
+
+  it('debería calcular 1% de descuento adicional si la categoría es Electrónicos', () => {
+    expect(calcularDescuentoCategoria(1000, 'Electrónicos')).toEqual(10);
+  });
   
 });

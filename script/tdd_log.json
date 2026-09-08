@@ -546,9 +546,39 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e541e7e12fc903e28a39a3c826eafa3b04d33b1c",
     "commitName": "feat: implementar calculo descuento para categoria Muebles",
     "commitTimestamp": 1788877370517,
     "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1788877507420,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1788877558036,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788877582230,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Electronicos",
+    "commitTimestamp": 1788877641874,
+    "testId": 24
   }
 ]
