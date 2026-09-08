@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d19296d20aa2405b20b529079ff1aa12e33ccd1c",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T02:51:38.000Z",
       "message": "feat: implementar calculo de impuesto especifico para estado UT",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/d19296d20aa2405b20b529079ff1aa12e33ccd1c"
     },
     "stats": {
       "total": 8,
@@ -53,6 +53,25 @@
     },
     "coverage": 85.71,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T02:53:36.000Z",
+      "message": "feat: implementar calculo de impuesto especifico para estado NV",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 88.89,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

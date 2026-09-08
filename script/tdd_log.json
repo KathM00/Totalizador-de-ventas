@@ -68,9 +68,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d19296d20aa2405b20b529079ff1aa12e33ccd1c",
     "commitName": "feat: implementar calculo de impuesto especifico para estado UT",
     "commitTimestamp": 1788835900415,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788835966321,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788836002908,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de impuesto especifico para estado NV",
+    "commitTimestamp": 1788836018552,
+    "testId": 3
   }
 ]
