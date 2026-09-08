@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e898ce9d974dbbdf4acf5ce270597d9cd2144d5",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T03:13:00.000Z",
       "message": "feat: implementar calculo descuento para un monto mayor igual a 7000 y menor a 10000",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/5e898ce9d974dbbdf4acf5ce270597d9cd2144d5"
     },
     "stats": {
       "total": 10,
@@ -186,6 +186,25 @@
     },
     "coverage": 95.24,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T03:14:35.000Z",
+      "message": "feat: implementar calculo descuento para un monto mayor igual a 10000 y menor a 30000",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.65,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -230,9 +230,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e898ce9d974dbbdf4acf5ce270597d9cd2144d5",
     "commitName": "feat: implementar calculo descuento para un monto mayor igual a 7000 y menor a 10000",
     "commitTimestamp": 1788837182584,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788837230651,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788837256468,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para un monto mayor igual a 10000 y menor a 30000",
+    "commitTimestamp": 1788837277287,
+    "testId": 10
   }
 ]
