@@ -45,4 +45,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularDescuento(10000)).toEqual(1000);
   });
 
+  it('debería calcular 15% de descuento si el precio neto es mayor o igual a 30000', () => {
+    expect(calcularDescuento(30000)).toEqual(4500);
+  });
+
 });
