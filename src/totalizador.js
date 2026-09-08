@@ -16,6 +16,10 @@ export function calcularImpuesto(monto, estado) {
     if (estado === 'AL') {
     return monto * 0.04;
   }
+
+    if (estado === 'CA') {
+    return monto * 0.0825;
+  }
   
   return 0;
 }

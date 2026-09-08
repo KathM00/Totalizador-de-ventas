@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "16696a559ac98390f135649ed08dc48e3dac18cf",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T02:55:21.000Z",
       "message": "feat: implementar calculo de impuesto especifico para estado AL",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/16696a559ac98390f135649ed08dc48e3dac18cf"
     },
     "stats": {
       "total": 8,
@@ -91,6 +91,25 @@
     },
     "coverage": 90.91,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T02:57:38.000Z",
+      "message": "feat: implementar calculo de impuesto especifico para estado CA",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 92.31,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

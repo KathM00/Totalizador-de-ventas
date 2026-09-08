@@ -112,9 +112,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "16696a559ac98390f135649ed08dc48e3dac18cf",
     "commitName": "feat: implementar calculo de impuesto especifico para estado AL",
     "commitTimestamp": 1788836123057,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788836189821,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788836214442,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de impuesto especifico para estado CA",
+    "commitTimestamp": 1788836260362,
+    "testId": 5
   }
 ]

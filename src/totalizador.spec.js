@@ -21,4 +21,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularImpuesto(60, 'AL')).toEqual(2.4);
   });
 
+  it('debería calcular el impuesto del 8.25% para el estado CA', () => {
+    expect(calcularImpuesto(60, 'CA')).toEqual(4.95);
+  });
+
 });
