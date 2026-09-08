@@ -17,4 +17,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularImpuesto(60, 'NV')).toEqual(4.8);
   });
 
+  it('debería calcular el impuesto del 4.00% para el estado AL', () => {
+    expect(calcularImpuesto(60, 'AL')).toEqual(2.4);
+  });
+
 });
