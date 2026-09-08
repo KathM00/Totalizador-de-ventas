@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "5b23247337b2d93079ea43958dba408440b97fc4",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T02:42:24.000Z",
       "message": "feat: implementar calculo de precio neto multiplicando cantidad y precio",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/5b23247337b2d93079ea43958dba408440b97fc4"
     },
     "stats": {
       "total": 10,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T02:46:47.000Z",
+      "message": "feat: implementar calculo de impuesto especifico para estado TX",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 80,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

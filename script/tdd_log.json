@@ -16,9 +16,39 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b23247337b2d93079ea43958dba408440b97fc4",
     "commitName": "feat: implementar calculo de precio neto multiplicando cantidad y precio",
     "commitTimestamp": 1788835346672,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788835431454,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788835455775,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788835577847,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de impuesto especifico para estado TX",
+    "commitTimestamp": 1788835609679,
+    "testId": 1
   }
 ]
