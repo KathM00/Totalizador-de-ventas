@@ -75,5 +75,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Material de escritorio') {
     return precioNeto * 0.015;
   }
+  if (categoria === 'Muebles') {
+    return 0;
+  }
 
 }

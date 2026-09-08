@@ -88,6 +88,9 @@ describe('Calculadora de Totalizador', () => {
   it('debería calcular 1.5% de descuento adicional si la categoría es Material de escritorio', () => {
     expect(calcularDescuentoCategoria(1000, 'Material de escritorio')).toEqual(15);
   });
-  
 
+  it('debería calcular 0 de descuento adicional si la categoría es Muebles', () => {
+    expect(calcularDescuentoCategoria(1000, 'Muebles')).toEqual(0);
+  });
+  
 });

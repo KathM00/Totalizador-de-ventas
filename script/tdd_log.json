@@ -524,9 +524,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bd258f2d6ebe1a182de2199f9c8e63beab197ce7",
     "commitName": "feat: implementar calculo descuento para categoria Material de escritorio",
     "commitTimestamp": 1788877203595,
     "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788877307336,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788877345739,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Muebles",
+    "commitTimestamp": 1788877370517,
+    "testId": 23
   }
 ]
