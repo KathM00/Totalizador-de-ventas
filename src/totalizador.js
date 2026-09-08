@@ -66,4 +66,7 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Varios') {
      return 0;
   }  
+  if (categoria === 'Alimentos') {
+    return precioNeto * 0.02;
+  }
 }

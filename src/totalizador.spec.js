@@ -76,6 +76,10 @@ describe('Calculadora de Totalizador', () => {
   it('debería calcular 0 de descuento adicional si la categoría es Varios', () => {
     expect(calcularDescuentoCategoria(1000, 'Varios')).toEqual(0);
   });
+
+  it('debería calcular 2% de descuento adicional si la categoría es Alimentos', () => {
+    expect(calcularDescuentoCategoria(1000, 'Alimentos')).toEqual(20);
+  });
   
 
 });

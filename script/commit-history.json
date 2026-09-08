@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "259d38719277e39d0777f2e20240533bd534d970",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T14:04:27.000Z",
       "message": "feat: implementar calculo descuento para categoria Varios",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/259d38719277e39d0777f2e20240533bd534d970"
     },
     "stats": {
       "total": 13,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T14:10:28.000Z",
+      "message": "feat: implementar calculo descuento para categoria Alimentos",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

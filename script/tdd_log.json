@@ -458,9 +458,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "259d38719277e39d0777f2e20240533bd534d970",
     "commitName": "feat: implementar calculo descuento para categoria Varios",
     "commitTimestamp": 1788876269606,
     "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788876586731,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788876612315,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Alimentos",
+    "commitTimestamp": 1788876630696,
+    "testId": 20
   }
 ]
