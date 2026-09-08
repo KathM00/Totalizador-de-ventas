@@ -84,5 +84,10 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Vestimenta') {
     return 0;
   }
+}
 
+export function calcularImpuestoCategoria(precioNeto, categoria) {
+  if (categoria === 'Varios') {
+    return 0;
+  } 
 }

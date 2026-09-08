@@ -598,9 +598,39 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "abfc1d951fb5e023105af2f5523b94a70135fe44",
     "commitName": "feat: implementar calculo descuento para categoria Vestimenta",
     "commitTimestamp": 1788878019057,
     "testId": 25
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1788892473663,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1788892524581,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1788892567628,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Varios",
+    "commitTimestamp": 1788892648756,
+    "testId": 26
   }
 ]
