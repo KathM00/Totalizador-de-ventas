@@ -576,9 +576,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e2e9ab8124840d4247422fe607336421c73acecf",
     "commitName": "feat: implementar calculo descuento para categoria Electronicos",
     "commitTimestamp": 1788877641874,
     "testId": 24
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788877731496,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1788877772700,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Vestimenta",
+    "commitTimestamp": 1788878019057,
+    "testId": 25
   }
 ]

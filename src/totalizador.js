@@ -81,5 +81,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Electrónicos') {
     return precioNeto * 0.01;
   }
+  if (categoria === 'Vestimenta') {
+    return 0;
+  }
 
 }

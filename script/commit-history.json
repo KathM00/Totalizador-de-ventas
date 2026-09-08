@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e2e9ab8124840d4247422fe607336421c73acecf",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T14:27:20.000Z",
       "message": "feat: implementar calculo descuento para categoria Electronicos",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/e2e9ab8124840d4247422fe607336421c73acecf"
     },
     "stats": {
       "total": 7,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T14:33:37.000Z",
+      "message": "feat: implementar calculo descuento para categoria Vestimenta",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }
