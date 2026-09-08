@@ -628,9 +628,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "467af09389e2939caf746934d67009521c306d04",
     "commitName": "feat: implementar calculo impuesto para categoria Varios",
     "commitTimestamp": 1788892648756,
     "testId": 26
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788892898281,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788892927690,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Alimentos",
+    "commitTimestamp": 1788893000638,
+    "testId": 27
   }
 ]

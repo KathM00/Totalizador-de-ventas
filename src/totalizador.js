@@ -90,4 +90,7 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
   if (categoria === 'Varios') {
     return 0;
   } 
+  if (categoria === 'Alimentos') {
+    return 0;
+  }
 }
