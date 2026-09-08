@@ -1,12 +1,16 @@
 export function calcularPrecioNeto(cantidad, precio) {
- if (cantidad <= 0) {
+ if (typeof cantidad !== 'number' || typeof precio !== 'number' || isNaN(cantidad) || isNaN(precio)) {
+    throw new Error("La cantidad y el precio deben ser valores numéricos");
+  }
+ 
+  if (cantidad <= 0) {
     throw new Error("La cantidad debe ser un número positivo mayor a cero");
   }
 
  if (precio < 0) {
     throw new Error("El precio no puede ser negativo");
   }
-  
+
   return cantidad * precio;
 }
 
