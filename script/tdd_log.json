@@ -502,9 +502,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4aead41b64dc85bc0da8a22edd83a87076272413",
     "commitName": "feat: implementar calculo descuento para categoria Bebidas Alcoholicas",
     "commitTimestamp": 1788876912990,
     "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788877030115,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788877101292,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Material de escritorio",
+    "commitTimestamp": 1788877203595,
+    "testId": 22
   }
 ]

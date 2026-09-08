@@ -72,5 +72,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Bebidas Alcohólicas') {
     return 0;
   }
+  if (categoria === 'Material de escritorio') {
+    return precioNeto * 0.015;
+  }
 
 }

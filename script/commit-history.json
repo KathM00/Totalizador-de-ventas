@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4aead41b64dc85bc0da8a22edd83a87076272413",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T14:15:11.000Z",
       "message": "feat: implementar calculo descuento para categoria Bebidas Alcoholicas",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/4aead41b64dc85bc0da8a22edd83a87076272413"
     },
     "stats": {
       "total": 8,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T14:20:01.000Z",
+      "message": "feat: implementar calculo descuento para categoria Material de escritorio",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }
