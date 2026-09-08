@@ -42,3 +42,10 @@ export function calcularDescuento(precioNeto) {
   }
 
 }
+
+export function calcularTotal(cantidad, precio, estado) {
+  const precioNeto = calcularPrecioNeto(cantidad, precio);
+  const descuento = calcularDescuento(precioNeto);
+  const impuesto = calcularImpuesto(precioNeto - descuento, estado);
+  return precioNeto - descuento + impuesto;
+}

@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cc2a43b16def09c5a29a1e8c366227a2f6a43287",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T03:26:55.000Z",
       "message": "refactor(impuestos): simplificar calculo de impuestos usando diccionario",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/cc2a43b16def09c5a29a1e8c366227a2f6a43287"
     },
     "stats": {
       "total": 29,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T03:33:24.000Z",
+      "message": "feat: implementar el calculo total con descuento e impuesto incluidos",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

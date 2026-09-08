@@ -288,9 +288,39 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cc2a43b16def09c5a29a1e8c366227a2f6a43287",
     "commitName": "refactor(impuestos): simplificar calculo de impuestos usando diccionario",
     "commitTimestamp": 1788838017268,
     "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788838204902,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788838273821,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788838287344,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar el calculo total con descuento e impuesto incluidos",
+    "commitTimestamp": 1788838406553,
+    "testId": 13
   }
 ]

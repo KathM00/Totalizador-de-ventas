@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento} from './totalizador.js';
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularTotal} from './totalizador.js';
 
 describe('Calculadora de Totalizador', () => {
   it('debería calcular el precio neto multiplicando cantidad por precio', () => {
@@ -47,6 +47,10 @@ describe('Calculadora de Totalizador', () => {
 
   it('debería calcular 15% de descuento si el precio neto es mayor o igual a 30000', () => {
     expect(calcularDescuento(30000)).toEqual(4500);
+  });
+
+  it('debería calcular el precio total con descuentos e impuestos aplicados', () => {
+    expect(calcularTotal(20,3,"TX")).toEqual(63.75);
   });
 
 });
