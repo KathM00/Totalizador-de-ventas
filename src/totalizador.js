@@ -20,6 +20,13 @@ export function calcularImpuesto(monto, estado) {
     if (estado === 'CA') {
     return monto * 0.0825;
   }
-  
+
   return 0;
+}
+
+
+export function calcularDescuento(precioNeto) {
+  if (precioNeto < 1000) {
+    return 0;
+  } 
 }

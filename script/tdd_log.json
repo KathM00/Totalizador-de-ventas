@@ -134,9 +134,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "229e868eb266e84d489d6d13af17b5f7f309acd3",
     "commitName": "feat: implementar calculo de impuesto especifico para estado CA",
     "commitTimestamp": 1788836260362,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788836343323,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788836517301,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para un monto menor a 1000",
+    "commitTimestamp": 1788836547752,
+    "testId": 6
   }
 ]

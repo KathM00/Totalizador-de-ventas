@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "229e868eb266e84d489d6d13af17b5f7f309acd3",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T02:57:38.000Z",
       "message": "feat: implementar calculo de impuesto especifico para estado CA",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/229e868eb266e84d489d6d13af17b5f7f309acd3"
     },
     "stats": {
       "total": 8,
@@ -110,6 +110,25 @@
     },
     "coverage": 92.31,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T03:02:26.000Z",
+      "message": "feat: implementar calculo descuento para un monto menor a 1000",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.33,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

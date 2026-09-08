@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto} from './totalizador.js';
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento} from './totalizador.js';
 
 describe('Calculadora de Totalizador', () => {
   it('debería calcular el precio neto multiplicando cantidad por precio', () => {
@@ -23,6 +23,10 @@ describe('Calculadora de Totalizador', () => {
 
   it('debería calcular el impuesto del 8.25% para el estado CA', () => {
     expect(calcularImpuesto(60, 'CA')).toEqual(4.95);
+  });
+
+  it('debería calcular 0 de descuento si el precio neto es menor a 1000', () => {
+    expect(calcularDescuento(60)).toEqual(0);
   });
 
 });
