@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d226e899a928541ba257e4380909cbd288241f83",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T03:51:40.000Z",
       "message": "feat: verificar que la cantidad no sean caracteres",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/d226e899a928541ba257e4380909cbd288241f83"
     },
     "stats": {
       "total": 12,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T03:53:55.000Z",
+      "message": "feat: verificar que el precio sea un valor numerico",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

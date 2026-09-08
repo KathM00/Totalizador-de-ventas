@@ -1,5 +1,5 @@
 export function calcularPrecioNeto(cantidad, precio) {
- if (typeof cantidad !== 'number' || typeof precio !== 'number' || isNaN(cantidad) || isNaN(precio)) {
+ if (typeof cantidad !== 'number' ||  typeof precio !== 'number' || isNaN(cantidad) || isNaN(precio) ) {
     throw new Error("La cantidad y el precio deben ser valores numéricos");
   }
  

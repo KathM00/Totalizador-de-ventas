@@ -392,9 +392,39 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d226e899a928541ba257e4380909cbd288241f83",
     "commitName": "feat: verificar que la cantidad no sean caracteres",
     "commitTimestamp": 1788839502501,
     "testId": 16
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788839539129,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788839569547,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788839600481,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar que el precio sea un valor numerico",
+    "commitTimestamp": 1788839637482,
+    "testId": 17
   }
 ]
