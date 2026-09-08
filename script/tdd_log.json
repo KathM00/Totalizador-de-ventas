@@ -422,9 +422,15 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6db5ee00a83319b972a7894b61d0958849499001",
     "commitName": "feat: verificar que el precio sea un valor numerico",
     "commitTimestamp": 1788839637482,
     "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar interfaz de usuario",
+    "commitTimestamp": 1788840498858,
+    "testId": 18
   }
 ]

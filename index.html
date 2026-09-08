@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html xml:lang="es">
   <head>
-    <title>Sumador</title>
+    <title>Totalizador</title>
+    <style>
+      .form-row {
+        display: flex;
+        margin-bottom: 5px;
+      }
+      .form-label {
+        width: 150px;
+      }
+      .result-row {
+        margin-bottom: 5px;
+      }
+      #resultado-div {
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
+     <h1>Totalizador De Ventas</h1>
+    <form id="totalizador-form">
+      <div class="form-row">
+        <label for="cantidad" class="form-label">Cantidad de item:</label>
+        <input type="number" id="cantidad" required />
+      </div>
+      <div class="form-row">
+        <label for="precio" class="form-label">Precio por item:</label>
+        <input type="number" id="precio" step="0.01" required />
+      </div>
+      <div class="form-row">
+        <label for="estado" class="form-label">Codigo de estado:</label>
+        <select id="estado">
+          <option value="TX">TX</option>
+          <option value="UT">UT</option>
+          <option value="NV">NV</option>
+          <option value="AL">AL</option>
+          <option value="CA">CA</option>
+        </select>
+      </div>
+      <div class="form-row" style="justify-content: flex-end; width: 330px;">
+        <input type="submit" value="Totalizar" id="totalizar-button" style="background-color: #d3d3d3; padding: 5px 15px; border: 1px solid #000;" />
+      </div>
     </form>
+    
     <div id="resultado-div"></div>
 
     <script type="module" src="./src/presenter.js"></script>

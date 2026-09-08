@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6db5ee00a83319b972a7894b61d0958849499001",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T03:53:55.000Z",
       "message": "feat: verificar que el precio sea un valor numerico",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/6db5ee00a83319b972a7894b61d0958849499001"
     },
     "stats": {
       "total": 6,
       "additions": 5,
       "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T04:08:17.000Z",
+      "message": "feat: implementar interfaz de usuario",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 87,
+      "additions": 70,
+      "deletions": 17,
       "date": "2026-09-08"
     },
     "coverage": 100,
