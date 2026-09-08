@@ -428,9 +428,39 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6b8293dd5433f2ba873a187a9a6822eb2dda9368",
     "commitName": "feat: implementar interfaz de usuario",
     "commitTimestamp": 1788840498858,
     "testId": 18
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788876016611,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788876187985,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788876216387,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Varios",
+    "commitTimestamp": 1788876269606,
+    "testId": 19
   }
 ]

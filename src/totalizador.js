@@ -61,3 +61,9 @@ export function calcularTotal(cantidad, precio, estado) {
   const impuesto = calcularImpuesto(precioNeto - descuento, estado);
   return precioNeto - descuento + impuesto;
 }
+
+export function calcularDescuentoCategoria(precioNeto, categoria) {
+  if (categoria === 'Varios') {
+     return 0;
+  }  
+}

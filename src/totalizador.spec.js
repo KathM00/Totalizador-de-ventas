@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularTotal} from './totalizador.js';
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularDescuentoCategoria, calcularTotal} from './totalizador.js';
 
 describe('Calculadora de Totalizador', () => {
   it('debería calcular el precio neto multiplicando cantidad por precio', () => {
@@ -72,5 +72,10 @@ describe('Calculadora de Totalizador', () => {
   it('debería lanzar un error si la cantidad no es un número válido', () => {
     expect(() => calcularPrecioNeto(20, "tres")).toThrow("La cantidad y el precio deben ser valores numéricos");
   });
+
+  it('debería calcular 0 de descuento adicional si la categoría es Varios', () => {
+    expect(calcularDescuentoCategoria(1000, 'Varios')).toEqual(0);
+  });
+  
 
 });
