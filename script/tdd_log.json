@@ -274,9 +274,23 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66b40f0a3ae2387a2f0171669354b410c14e44db",
     "commitName": "feat: implementar calculo descuento para un monto mayor igual a 30000",
     "commitTimestamp": 1788837509023,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788837992066,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(impuestos): simplificar calculo de impuestos usando diccionario",
+    "commitTimestamp": 1788838017268,
+    "testId": 12
   }
 ]

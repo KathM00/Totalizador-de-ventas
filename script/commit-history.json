@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "66b40f0a3ae2387a2f0171669354b410c14e44db",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-08T03:18:27.000Z",
       "message": "feat: implementar calculo descuento para un monto mayor igual a 30000",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/66b40f0a3ae2387a2f0171669354b410c14e44db"
     },
     "stats": {
       "total": 8,
@@ -223,6 +223,25 @@
       "date": "2026-09-08"
     },
     "coverage": 96,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-08T03:26:55.000Z",
+      "message": "refactor(impuestos): simplificar calculo de impuestos usando diccionario",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 10,
+      "deletions": 19,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
     "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"

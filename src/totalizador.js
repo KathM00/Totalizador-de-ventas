@@ -3,25 +3,16 @@ export function calcularPrecioNeto(cantidad, precio) {
 }
 
 export function calcularImpuesto(monto, estado) {
-  if (estado === 'TX') {
-    return monto * 0.0625;
-  }
-  if (estado === 'UT') {
-    return monto * 0.0665;
-  }
-    if (estado === 'NV') {
-    return monto * 0.08;
-  }
-
-    if (estado === 'AL') {
-    return monto * 0.04;
-  }
-
-    if (estado === 'CA') {
-    return monto * 0.0825;
-  }
-
-  return 0;
+  const tasas = {
+    'TX': 0.0625,
+    'UT': 0.0665,
+    'NV': 0.08,
+    'AL': 0.04,
+    'CA': 0.0825
+  };
+  
+  const tasa = tasas[estado] || 0;
+  return monto * tasa;
 }
 
 
