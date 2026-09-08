@@ -69,4 +69,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
   if (categoria === 'Alimentos') {
     return precioNeto * 0.02;
   }
+  if (categoria === 'Bebidas Alcohólicas') {
+    return 0;
+  }
+
 }

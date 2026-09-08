@@ -480,9 +480,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4a1483677e9ddf52a1bfd6eb8ac63607668005aa",
     "commitName": "feat: implementar calculo descuento para categoria Alimentos",
     "commitTimestamp": 1788876630696,
     "testId": 20
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788876846924,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788876884518,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo descuento para categoria Bebidas Alcoholicas",
+    "commitTimestamp": 1788876912990,
+    "testId": 21
   }
 ]
