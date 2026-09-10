@@ -169,4 +169,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularDescuentoCliente('Antiguo Recurrente')).toEqual(1);
   });
 
+  it('debería calcular 1.5 de descuento si el cliente es Especial', () => {
+    expect(calcularDescuentoCliente('Especial')).toEqual(1.5);
+  });
+
 });

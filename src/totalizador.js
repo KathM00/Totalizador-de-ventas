@@ -145,4 +145,7 @@ export function calcularDescuentoCliente(tipoCliente) {
   if (tipoCliente === 'Antiguo Recurrente') {
     return 1;
   }
+  if (tipoCliente === 'Especial') {
+    return 1.5;
+  }
 }
