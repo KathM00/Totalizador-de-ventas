@@ -1142,9 +1142,23 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aac921097348e16c85d363fff40f63dea1151bcb",
     "commitName": "feat: agregar descuento, impuesto, costo de envio para calcular el total",
     "commitTimestamp": 1789007556396,
     "testId": 49
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1789008440112,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar la interfaz de usuario final",
+    "commitTimestamp": 1789009388668,
+    "testId": 50
   }
 ]

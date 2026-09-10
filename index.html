@@ -15,6 +15,14 @@
       }
       #resultado-div {
         margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 330px;
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 10px 0;
       }
     </style>
   </head>
@@ -32,15 +40,41 @@
       <div class="form-row">
         <label for="estado" class="form-label">Codigo de estado:</label>
         <select id="estado">
+          <option value="CA" selected>CA</option>
           <option value="TX">TX</option>
           <option value="UT">UT</option>
           <option value="NV">NV</option>
           <option value="AL">AL</option>
-          <option value="CA">CA</option>
         </select>
       </div>
-      <div class="form-row" style="justify-content: flex-end; width: 330px;">
-        <input type="submit" value="Totalizar" id="totalizar-button" style="background-color: #d3d3d3; padding: 5px 15px; border: 1px solid #000;" />
+      <div class="form-row">
+        <label for="categoria" class="form-label">Categoría:</label>
+        <select id="categoria">
+          <option value="Varios">Varios</option>
+          <option value="Alimentos">Alimentos</option>
+          <option value="Bebidas Alcohólicas">Bebidas Alcohólicas</option>
+          <option value="Material de escritorio">Material de escritorio</option>
+          <option value="Muebles">Muebles</option>
+          <option value="Electrónicos">Electrónicos</option>
+          <option value="Vestimenta">Vestimenta</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="peso" class="form-label">Peso vol. (c/u):</label>
+        <input type="number" id="peso" step="0.1" value="0" required />
+      </div>
+      <div class="form-row">
+        <label for="tipoCliente" class="form-label">Tipo de Cliente:</label>
+        <select id="tipoCliente">
+          <option value="Normal">Normal</option>
+          <option value="Recurrente">Recurrente</option>
+          <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+          <option value="Especial">Especial</option>
+        </select>
+      </div>
+
+      <div class="form-row" style="justify-content: flex-end; width: 330px; margin-top: 15px;">
+        <input type="submit" value="Totalizar" id="totalizar-button" style="background-color: #d3d3d3; padding: 5px 15px; border: 1px solid #000; cursor: pointer;" />
       </div>
     </form>
     

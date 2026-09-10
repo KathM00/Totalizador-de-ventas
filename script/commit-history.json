@@ -931,17 +931,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aac921097348e16c85d363fff40f63dea1151bcb",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T02:32:34.000Z",
       "message": "feat: agregar descuento, impuesto, costo de envio para calcular el total",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/aac921097348e16c85d363fff40f63dea1151bcb"
     },
     "stats": {
       "total": 23,
       "additions": 19,
       "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T03:03:06.000Z",
+      "message": "feat: implementar la interfaz de usuario final",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 111,
+      "additions": 95,
+      "deletions": 16,
       "date": "2026-09-10"
     },
     "coverage": 100,
