@@ -914,9 +914,31 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f6495cc3c1d447706814f409c4f0dd67719cc3e9",
     "commitName": "feat: implementar calculo de envio si el peso es mayor a 200",
     "commitTimestamp": 1789003539824,
     "testId": 39
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1789003688952,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1789003753558,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de descuento para cliente Normal",
+    "commitTimestamp": 1789003782085,
+    "testId": 40
   }
 ]

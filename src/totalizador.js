@@ -133,3 +133,10 @@ export function calcularCostoEnvio(peso) {
     return 9;
   }
 }
+
+
+export function calcularDescuentoCliente(tipoCliente) {
+  if (tipoCliente === 'Normal') {
+    return 0;
+  }
+}
