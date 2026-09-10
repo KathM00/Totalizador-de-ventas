@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a0581e58ba85ad15c0a393d5d192b410b3d28f4",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T01:40:18.000Z",
       "message": "feat: implementar calculo de descuento para cliente Recurrente con precio Neto mayor a 3000 y de catgoria Alimentos",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/5a0581e58ba85ad15c0a393d5d192b410b3d28f4"
     },
     "stats": {
       "total": 13,
@@ -851,6 +851,25 @@
     },
     "coverage": 98.75,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T01:43:45.000Z",
+      "message": "feat: implementar calculo de descuento para cliente Especial con precio Neto mayor a 7000 y de catgoria Electronicos",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.78,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -177,4 +177,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularDescuentoEspecifico('Recurrente',4000,'Alimentos')).toEqual(100);
   });
 
+  it('debería calcular 200 de descuento si el cliente es Especial, si el precio Neto es mayor a 7000 y la categoria es Electrónicos', () => {
+    expect(calcularDescuentoEspecifico('Especial',8000,'Electrónicos')).toEqual(200);
+  });
+
 });
