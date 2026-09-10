@@ -826,9 +826,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e538148bdf0b474aa86d044d4c888b026b280143",
     "commitName": "feat: implementar calculo de envio si el peso esta entre 21 y 40",
     "commitTimestamp": 1789002986692,
     "testId": 35
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1789003047170,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1789003111575,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de envio si el peso esta entre 41 y 80",
+    "commitTimestamp": 1789003142462,
+    "testId": 36
   }
 ]
