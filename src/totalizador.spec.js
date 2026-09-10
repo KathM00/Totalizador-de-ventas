@@ -149,4 +149,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularCostoEnvio(90)).toEqual(6.5);
   });
 
+  it('debería calcular 8 de envio si el peso esta entre 101 y 200', () => {
+    expect(calcularCostoEnvio(150)).toEqual(8);
+  });
+
 });
