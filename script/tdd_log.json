@@ -1062,9 +1062,23 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aa6afefefc5261861a6fa9c11e17ffe2ac23effc",
     "commitName": "feat: implementar calculo de descuento para cliente Especial con precio Neto mayor a 7000 y de catgoria Electronicos",
     "commitTimestamp": 1789004626679,
     "testId": 45
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789006480102,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: refactorizar calculo de descuento de categoria",
+    "commitTimestamp": 1789006496548,
+    "testId": 46
   }
 ]

@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aa6afefefc5261861a6fa9c11e17ffe2ac23effc",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T01:43:45.000Z",
       "message": "feat: implementar calculo de descuento para cliente Especial con precio Neto mayor a 7000 y de catgoria Electronicos",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/aa6afefefc5261861a6fa9c11e17ffe2ac23effc"
     },
     "stats": {
       "total": 7,
@@ -869,6 +869,25 @@
       "date": "2026-09-10"
     },
     "coverage": 98.78,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T02:14:55.000Z",
+      "message": "refactor: refactorizar calculo de descuento de categoria",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 2,
+      "deletions": 21,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.57,
     "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
