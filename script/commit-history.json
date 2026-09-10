@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1a2ba5d24a2a61b2505ab92212eabf8daa172cd0",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T01:12:01.000Z",
       "message": "feat: implementar calculo de envio si el peso esta entre 0 y 10",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/1a2ba5d24a2a61b2505ab92212eabf8daa172cd0"
     },
     "stats": {
       "total": 13,
@@ -642,6 +642,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T01:14:02.000Z",
+      "message": "feat: implementar calculo de envio si el peso esta entre 11 y 20",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }
