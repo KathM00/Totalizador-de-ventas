@@ -55,11 +55,26 @@ export function calcularDescuento(precioNeto) {
 
 }
 
-export function calcularTotal(cantidad, precio, estado) {
+export function calcularTotal(cantidad, precio, estado, categoria = 'Varios', peso = 0, tipoCliente = 'Normal') {
   const precioNeto = calcularPrecioNeto(cantidad, precio);
-  const descuento = calcularDescuento(precioNeto);
-  const impuesto = calcularImpuesto(precioNeto - descuento, estado);
-  return precioNeto - descuento + impuesto;
+  
+  const descVolumen = calcularDescuento(precioNeto);
+  const descCategoria = calcularDescuentoCategoria(precioNeto, categoria);
+  const descFijo = calcularDescuentoEspecifico(tipoCliente, precioNeto, categoria);
+  const totalDescuentosProducto = descVolumen + descCategoria + descFijo;
+  
+  const baseImponible = precioNeto - totalDescuentosProducto;
+  const impEstado = calcularImpuesto(baseImponible, estado);
+  const impCategoria = calcularImpuestoCategoria(baseImponible, categoria);
+  const totalImpuestos = impEstado + impCategoria;
+
+  const costoEnvioUnitario = calcularCostoEnvio(peso);
+  const costoEnvioTotal = costoEnvioUnitario * cantidad;
+  const porcentajeDescEnvio = calcularDescuentoCliente(tipoCliente);
+  const descuentoEnvioMonto = costoEnvioTotal * (porcentajeDescEnvio / 100);
+  const totalEnvioFinal = costoEnvioTotal - descuentoEnvioMonto;
+
+  return baseImponible + totalImpuestos + totalEnvioFinal;
 }
 
 export function calcularDescuentoCategoria(precioNeto, categoria) {

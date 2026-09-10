@@ -1112,9 +1112,39 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "824f970f336a465d348bd9f3395c3b5e4581b7be",
     "commitName": "test: probar introducir un peso negativo",
     "commitTimestamp": 1789006944678,
     "testId": 48
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789007375326,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789007408827,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1789007511104,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar descuento, impuesto, costo de envio para calcular el total",
+    "commitTimestamp": 1789007556396,
+    "testId": 49
   }
 ]

@@ -912,12 +912,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "824f970f336a465d348bd9f3395c3b5e4581b7be",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T02:22:23.000Z",
       "message": "test: probar introducir un peso negativo",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/824f970f336a465d348bd9f3395c3b5e4581b7be"
     },
     "stats": {
       "total": 35,
@@ -926,6 +926,25 @@
       "date": "2026-09-10"
     },
     "coverage": 98.31,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T02:32:34.000Z",
+      "message": "feat: agregar descuento, impuesto, costo de envio para calcular el total",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 19,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
     "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
