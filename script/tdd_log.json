@@ -1076,9 +1076,23 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4068ead4760053e72161682ea7bb38545909efa8",
     "commitName": "refactor: refactorizar calculo de descuento de categoria",
     "commitTimestamp": 1789006496548,
     "testId": 46
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789006734823,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: refactorizar calculo de impuesto categoria",
+    "commitTimestamp": 1789006753137,
+    "testId": 47
   }
 ]

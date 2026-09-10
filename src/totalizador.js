@@ -68,27 +68,8 @@ export function calcularDescuentoCategoria(precioNeto, categoria) {
 }
 
 export function calcularImpuestoCategoria(precioNeto, categoria) {
-  if (categoria === 'Varios') {
-    return 0;
-  } 
-  if (categoria === 'Alimentos') {
-    return 0;
-  }
-  if (categoria === 'Bebidas Alcohólicas') {
-    return precioNeto * 0.07;
-  }
-  if (categoria === 'Material de escritorio') {
-    return 0;
-  }
-  if (categoria === 'Muebles') {
-    return precioNeto * 0.03;
-  }
-  if (categoria === 'Electrónicos') {
-    return precioNeto * 0.04;
-  }
-  if (categoria === 'Vestimenta') {
-    return precioNeto * 0.02;
-  }
+  const tasas = { 'Bebidas Alcohólicas': 0.07, 'Muebles': 0.03, 'Electrónicos': 0.04, 'Vestimenta': 0.02 };
+  return precioNeto * (tasas[categoria] || 0);
 }
 
 export function calcularCostoEnvio(peso) {

@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4068ead4760053e72161682ea7bb38545909efa8",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T02:14:55.000Z",
       "message": "refactor: refactorizar calculo de descuento de categoria",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/4068ead4760053e72161682ea7bb38545909efa8"
     },
     "stats": {
       "total": 23,
@@ -888,6 +888,25 @@
       "date": "2026-09-10"
     },
     "coverage": 98.57,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T02:19:12.000Z",
+      "message": "refactor: refactorizar calculo de impuesto categoria",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 2,
+      "deletions": 21,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.28,
     "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
