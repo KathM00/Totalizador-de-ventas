@@ -738,9 +738,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66871d0c32a18e9dca7e7f5048d8bc132baffe8e",
     "commitName": "feat: implementar calculo impuesto para categoria Vestimenta",
     "commitTimestamp": 1789002153711,
     "testId": 31
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1789002217421,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789002245184,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Electronicos",
+    "commitTimestamp": 1789002260624,
+    "testId": 32
   }
 ]

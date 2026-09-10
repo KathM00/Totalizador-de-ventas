@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "66871d0c32a18e9dca7e7f5048d8bc132baffe8e",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T01:02:31.000Z",
       "message": "feat: implementar calculo impuesto para categoria Vestimenta",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/66871d0c32a18e9dca7e7f5048d8bc132baffe8e"
     },
     "stats": {
       "total": 7,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T01:04:18.000Z",
+      "message": "feat: implementar calculo impuesto para categoria Electronicos",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

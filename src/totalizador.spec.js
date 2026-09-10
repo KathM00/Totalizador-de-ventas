@@ -121,6 +121,10 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularImpuestoCategoria(1000, 'Muebles')).toEqual(30);
   });
 
+  it('debería calcular 4% de impuesto adicional si la categoría es Electrónicos', () => {
+    expect(calcularImpuestoCategoria(1000, 'Electrónicos')).toEqual(40);
+  });
+
   it('debería calcular 2% de impuesto adicional si la categoría es Vestimenta', () => {
     expect(calcularImpuestoCategoria(1000, 'Vestimenta')).toEqual(20);
   });
