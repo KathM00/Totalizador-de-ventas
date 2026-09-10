@@ -102,4 +102,7 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
   if (categoria === 'Muebles') {
     return precioNeto * 0.03;
   }
+  if (categoria === 'Vestimenta') {
+    return precioNeto * 0.02;
+  }
 }

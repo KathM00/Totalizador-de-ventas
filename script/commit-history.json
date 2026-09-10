@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b72fdfdc7e4f15a260b0d64b959ec9ddd058d8e5",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T00:59:11.000Z",
       "message": "feat: implementar calculo impuesto para categoria Muebles",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/b72fdfdc7e4f15a260b0d64b959ec9ddd058d8e5"
     },
     "stats": {
       "total": 7,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T01:02:31.000Z",
+      "message": "feat: implementar calculo impuesto para categoria Vestimenta",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

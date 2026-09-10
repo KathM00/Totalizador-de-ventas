@@ -716,9 +716,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b72fdfdc7e4f15a260b0d64b959ec9ddd058d8e5",
     "commitName": "feat: implementar calculo impuesto para categoria Muebles",
     "commitTimestamp": 1789001953399,
     "testId": 30
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789002063441,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789002134280,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Vestimenta",
+    "commitTimestamp": 1789002153711,
+    "testId": 31
   }
 ]
