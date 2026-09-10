@@ -936,9 +936,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b5495f96732af9213c0d3798b758fff5c1cb0d4",
     "commitName": "feat: implementar calculo de descuento para cliente Normal",
     "commitTimestamp": 1789003782085,
     "testId": 40
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1789003843165,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1789003856420,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de descuento para cliente Recurrente",
+    "commitTimestamp": 1789003873630,
+    "testId": 41
   }
 ]
