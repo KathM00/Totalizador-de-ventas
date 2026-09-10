@@ -950,17 +950,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e6daf61347432e4187fff0bb907d108ad82f97e9",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T03:03:06.000Z",
       "message": "feat: implementar la interfaz de usuario final",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/e6daf61347432e4187fff0bb907d108ad82f97e9"
     },
     "stats": {
       "total": 111,
       "additions": 95,
       "deletions": 16,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T04:23:37.000Z",
+      "message": "feat: implementar la interfaz de usuario final con descuentos especificados",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 18,
+      "deletions": 10,
       "date": "2026-09-10"
     },
     "coverage": 100,

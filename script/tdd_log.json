@@ -1156,9 +1156,23 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e6daf61347432e4187fff0bb907d108ad82f97e9",
     "commitName": "feat: implementar la interfaz de usuario final",
     "commitTimestamp": 1789009388668,
     "testId": 50
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1789009403806,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar la interfaz de usuario final con descuentos especificados",
+    "commitTimestamp": 1789014218983,
+    "testId": 51
   }
 ]
