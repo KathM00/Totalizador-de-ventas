@@ -96,4 +96,7 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
   if (categoria === 'Bebidas Alcohólicas') {
     return precioNeto * 0.07;
   }
+  if (categoria === 'Material de escritorio') {
+    return 0;
+  }
 }

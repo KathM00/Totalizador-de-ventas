@@ -113,4 +113,7 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularImpuestoCategoria(1000, 'Bebidas Alcohólicas')).toEqual(70);
   });
   
+  it('debería calcular 0 de impuesto adicional si la categoría es Material de escritorio', () => {
+    expect(calcularImpuestoCategoria(1000, 'Material de escritorio')).toEqual(0);
+  });
 });

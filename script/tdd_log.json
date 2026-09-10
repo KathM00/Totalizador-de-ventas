@@ -672,9 +672,31 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4d2037370055ae066cb19f5a31c97e320c15041d",
     "commitName": "feat: implementar calculo impuesto para categoria Bebidas Alcoholicas",
     "commitTimestamp": 1788893334670,
     "testId": 28
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1789001741286,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789001780399,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Material de escritorio",
+    "commitTimestamp": 1789001827721,
+    "testId": 29
   }
 ]
