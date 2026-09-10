@@ -109,3 +109,9 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
     return precioNeto * 0.02;
   }
 }
+
+export function calcularCostoEnvio(peso) {
+  if (peso >= 0 && peso <= 10) {
+    return 0;
+ }
+}

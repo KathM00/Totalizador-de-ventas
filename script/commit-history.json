@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a7dc4e2444c0237b406f61cc2ed372ac08aa215",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T01:04:18.000Z",
       "message": "feat: implementar calculo impuesto para categoria Electronicos",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/5a7dc4e2444c0237b406f61cc2ed372ac08aa215"
     },
     "stats": {
       "total": 7,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T01:12:01.000Z",
+      "message": "feat: implementar calculo de envio si el peso esta entre 0 y 10",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

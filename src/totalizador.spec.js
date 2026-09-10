@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularDescuentoCategoria, calcularImpuestoCategoria, calcularTotal} from './totalizador.js';
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularDescuentoCategoria, calcularImpuestoCategoria, calcularCostoEnvio, calcularTotal} from './totalizador.js';
 
 describe('Calculadora de Totalizador', () => {
   it('debería calcular el precio neto multiplicando cantidad por precio', () => {
@@ -128,4 +128,9 @@ describe('Calculadora de Totalizador', () => {
   it('debería calcular 2% de impuesto adicional si la categoría es Vestimenta', () => {
     expect(calcularImpuestoCategoria(1000, 'Vestimenta')).toEqual(20);
   });
+  
+  it('debería calcular 0 de envio si el peso esta entre 0 y 10', () => {
+    expect(calcularCostoEnvio(5)).toEqual(0);
+  });
+
 });
