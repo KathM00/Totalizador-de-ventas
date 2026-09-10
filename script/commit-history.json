@@ -893,12 +893,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "80b2579c261327bd8baed2647857a10e78ea4dca",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T02:19:12.000Z",
       "message": "refactor: refactorizar calculo de impuesto categoria",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/80b2579c261327bd8baed2647857a10e78ea4dca"
     },
     "stats": {
       "total": 23,
@@ -908,6 +908,25 @@
     },
     "coverage": 98.28,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T02:22:23.000Z",
+      "message": "test: probar introducir un peso negativo",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 14,
+      "deletions": 21,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.31,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

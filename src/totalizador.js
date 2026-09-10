@@ -73,27 +73,16 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
 }
 
 export function calcularCostoEnvio(peso) {
-  if (peso >= 0 && peso <= 10) {
-    return 0;
- }
-  if (peso >= 11 && peso <= 20) {
-    return 3.5;
+ if (typeof peso !== 'number' || isNaN(peso) || peso < 0) {
+    throw new Error("El peso debe ser un número positivo");
   }
-  if (peso >= 21 && peso <= 40) {
-    return 5;
-  }
-  if (peso >=41 && peso <= 80) {
-    return 6;
-  }
-  if (peso >= 81 && peso <= 100) {
-    return 6.5;
-  }
-  if (peso >= 101 && peso <= 200) {
-    return 8;
-  }
-  if (peso > 200) {
-    return 9;
-  }
+  if (peso <= 10) return 0;
+  if (peso <= 20) return 3.5;
+  if (peso <= 40) return 5;
+  if (peso <= 80) return 6;
+  if (peso <= 100) return 6.5;
+  if (peso <= 200) return 8;
+  return 9;
 }
 
 

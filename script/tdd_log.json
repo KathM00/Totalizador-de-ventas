@@ -1090,9 +1090,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80b2579c261327bd8baed2647857a10e78ea4dca",
     "commitName": "refactor: refactorizar calculo de impuesto categoria",
     "commitTimestamp": 1789006753137,
     "testId": 47
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789006822481,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1789006896162,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: probar introducir un peso negativo",
+    "commitTimestamp": 1789006944678,
+    "testId": 48
   }
 ]

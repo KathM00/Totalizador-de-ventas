@@ -181,4 +181,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularDescuentoEspecifico('Especial',8000,'Electrónicos')).toEqual(200);
   });
 
+  it('debería lanzar un error si el peso es negativo o no es un número', () => {
+    expect(() => calcularCostoEnvio(-5)).toThrow("El peso debe ser un número positivo");
+  });
+
 });
