@@ -129,4 +129,7 @@ export function calcularCostoEnvio(peso) {
   if (peso >= 101 && peso <= 200) {
     return 8;
   }
+  if (peso > 200) {
+    return 9;
+  }
 }

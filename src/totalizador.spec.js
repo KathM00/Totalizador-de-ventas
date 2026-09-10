@@ -153,4 +153,8 @@ describe('Calculadora de Totalizador', () => {
     expect(calcularCostoEnvio(150)).toEqual(8);
   });
 
+  it('debería calcular 9 de envio si el peso es mayor a 200', () => {
+    expect(calcularCostoEnvio(250)).toEqual(9);
+  });
+
 });
