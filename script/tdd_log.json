@@ -1002,9 +1002,47 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3300d6d98e50abab83cb5f4cfe1774cbc90199a8",
     "commitName": "feat: implementar calculo de descuento para cliente Especial",
     "commitTimestamp": 1789004027039,
     "testId": 43
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1789004252219,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1789004329965,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1789004360711,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789004388452,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de descuento para cliente Recurrente con precio Neto mayor a 3000 y de catgoria Alimentos",
+    "commitTimestamp": 1789004419571,
+    "testId": 44
   }
 ]

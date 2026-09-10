@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularDescuentoCategoria, calcularImpuestoCategoria, calcularCostoEnvio, calcularDescuentoCliente, calcularTotal} from './totalizador.js';
+import {calcularPrecioNeto, calcularImpuesto, calcularDescuento, calcularDescuentoEspecifico, calcularDescuentoCategoria, calcularImpuestoCategoria, calcularCostoEnvio, calcularDescuentoCliente, calcularTotal} from './totalizador.js';
 
 describe('Calculadora de Totalizador', () => {
   it('debería calcular el precio neto multiplicando cantidad por precio', () => {
@@ -171,6 +171,10 @@ describe('Calculadora de Totalizador', () => {
 
   it('debería calcular 1.5 de descuento si el cliente es Especial', () => {
     expect(calcularDescuentoCliente('Especial')).toEqual(1.5);
+  });
+
+  it('debería calcular 100 de descuento si el cliente es Recurrente, si el precio Neto es mayor a 3000 y la categoria es Alimentos', () => {
+    expect(calcularDescuentoEspecifico('Recurrente',4000,'Alimentos')).toEqual(100);
   });
 
 });

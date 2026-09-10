@@ -149,3 +149,10 @@ export function calcularDescuentoCliente(tipoCliente) {
     return 1.5;
   }
 }
+
+export function calcularDescuentoEspecifico(tipoCliente, precioNeto, categoria) {
+  if (tipoCliente === 'Recurrente' && precioNeto > 3000 && categoria === 'Alimentos') {
+    return 100;
+  }
+  return 0;
+}
