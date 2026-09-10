@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "62f397d26c65100f93414fc6d2eeaba5bf184191",
     "author": "KathM00",
     "commit": {
       "date": "2026-09-10T01:31:11.000Z",
       "message": "feat: implementar calculo de descuento para cliente Recurrente",
-      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/62f397d26c65100f93414fc6d2eeaba5bf184191"
     },
     "stats": {
       "total": 7,
@@ -794,6 +794,25 @@
     },
     "coverage": 100,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "KathM00",
+    "commit": {
+      "date": "2026-09-10T01:32:33.000Z",
+      "message": "feat: implementar calculo de descuento para cliente Antiguo Recurrente",
+      "url": "https://github.com/KathM00/Totalizador-de-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }
