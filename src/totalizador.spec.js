@@ -116,4 +116,8 @@ describe('Calculadora de Totalizador', () => {
   it('debería calcular 0 de impuesto adicional si la categoría es Material de escritorio', () => {
     expect(calcularImpuestoCategoria(1000, 'Material de escritorio')).toEqual(0);
   });
+
+  it('debería calcular 3% de impuesto adicional si la categoría es Muebles', () => {
+    expect(calcularImpuestoCategoria(1000, 'Muebles')).toEqual(30);
+  });
 });

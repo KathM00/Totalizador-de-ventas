@@ -694,9 +694,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cfb26fbffc284384b056ca531e68938331fec470",
     "commitName": "feat: implementar calculo impuesto para categoria Material de escritorio",
     "commitTimestamp": 1789001827721,
     "testId": 29
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789001917173,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789001935296,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo impuesto para categoria Muebles",
+    "commitTimestamp": 1789001953399,
+    "testId": 30
   }
 ]

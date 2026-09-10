@@ -99,4 +99,7 @@ export function calcularImpuestoCategoria(precioNeto, categoria) {
   if (categoria === 'Material de escritorio') {
     return 0;
   }
+  if (categoria === 'Muebles') {
+    return precioNeto * 0.03;
+  }
 }
